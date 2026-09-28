@@ -1,0 +1,167 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidad — Lumen Loop</title><meta name="description" content="Cómo trata RuiCodex los datos personales en Lumen Loop.">
+<link rel="canonical" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.es.html"><link rel="alternate" hreflang="en" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.html"><link rel="alternate" hreflang="tr" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.tr.html"><link rel="alternate" hreflang="de" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.de.html"><link rel="alternate" hreflang="es" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.es.html"><link rel="alternate" hreflang="fr" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.fr.html"><link rel="alternate" hreflang="x-default" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.html">
+<meta property="og:title" content="Política de privacidad — Lumen Loop"><meta property="og:description" content="Cómo trata RuiCodex los datos personales en Lumen Loop.">
+<meta property="og:image" content="https://ruicodex-dev.github.io/lumenloop-legal/assets/feature.png"><meta property="og:type" content="website">
+<meta name="theme-color" content="#070916"><link rel="icon" href="assets/icon.png">
+<style>
+:root{--bg:#070916;--bg2:#0e1230;--card:rgba(255,255,255,.045);--card-b:rgba(255,255,255,.09);
+--fg:#eef0ff;--muted:#a9aecf;--acc:#00e5ff;--acc2:#8c7bff;--gold:#ffc94a;--ok:#7cffb2;
+--shadow:0 10px 40px rgba(0,0,0,.35);--r:18px}
+:root[data-theme=light]{--bg:#f6f5ff;--bg2:#ece9ff;--card:#ffffff;--card-b:rgba(20,23,51,.08);
+--fg:#141733;--muted:#555a7a;--acc:#007a93;--acc2:#5b48e0;--gold:#9a6b00;--ok:#127a45;--shadow:0 8px 30px rgba(20,23,51,.08)}
+@media (prefers-color-scheme: light){:root:not([data-theme=dark]){--bg:#f6f5ff;--bg2:#ece9ff;--card:#ffffff;
+--card-b:rgba(20,23,51,.08);--fg:#141733;--muted:#555a7a;--acc:#007a93;--acc2:#5b48e0;--gold:#9a6b00;--ok:#127a45;
+--shadow:0 8px 30px rgba(20,23,51,.08)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 10% -10%,rgba(140,123,255,.25),transparent 60%),
+radial-gradient(900px 500px at 110% 0%,rgba(0,229,255,.16),transparent 60%),var(--bg);color:var(--fg);
+font:16px/1.65 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--acc);text-underline-offset:3px}a:hover{opacity:.85}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--card-b)}
+.bar{display:flex;align-items:center;gap:14px;min-height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);text-decoration:none;font-size:1.05rem}
+.brand img{width:34px;height:34px;border-radius:10px}
+nav.main{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto;align-items:center}
+nav.main a{color:var(--muted);text-decoration:none;padding:7px 11px;border-radius:999px;font-size:.93rem;white-space:nowrap;line-height:1.2}
+nav.main a.on,nav.main a:hover{color:var(--fg);background:var(--card)}
+.tools{display:flex;gap:8px;align-items:center}
+select.lang,button.theme{background:var(--card);color:var(--fg);border:1px solid var(--card-b);border-radius:999px;
+padding:7px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+.hero{padding:56px 0 28px}
+.hero h1{font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.12;margin:.1em 0 .25em;letter-spacing:-.02em}
+.hero p.lead{color:var(--muted);font-size:1.12rem;max-width:720px;margin:0}
+.grad{background:linear-gradient(90deg,var(--acc),var(--acc2) 60%,#ff6b9a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--card);
+border:1px solid var(--card-b);color:var(--muted);font-size:.85rem}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:14px;font-weight:700;text-decoration:none;
+background:linear-gradient(135deg,var(--acc2),var(--acc));color:#fff;box-shadow:var(--shadow)}
+.btn.ghost{background:var(--card);color:var(--fg);border:1px solid var(--card-b);box-shadow:none}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:32px;padding:10px 0 60px}.layout>*{min-width:0}
+aside.toc{position:sticky;top:84px;align-self:start;max-height:calc(100vh - 100px);overflow:auto;padding:16px;
+background:var(--card);border:1px solid var(--card-b);border-radius:var(--r)}
+aside.toc h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+aside.toc ol{margin:0;padding-left:20px}aside.toc li{margin:3px 0;font-size:.9rem}aside.toc a{color:var(--fg);text-decoration:none}
+aside.toc a:hover{color:var(--acc)}
+article section{background:var(--card);border:1px solid var(--card-b);border-radius:var(--r);padding:22px 24px;margin:0 0 16px;
+scroll-margin-top:84px;box-shadow:var(--shadow)}
+article h2{margin:0 0 10px;font-size:1.22rem;display:flex;gap:10px;align-items:baseline}
+article h2 .n{color:var(--acc);font-variant-numeric:tabular-nums;font-size:.95rem}
+article h3{font-size:1.02rem;margin:18px 0 6px}
+article p,article li{color:var(--fg)}article ul,article ol{padding-left:22px}article li{margin:4px 0}
+.glance{border:1px solid color-mix(in srgb,var(--acc) 40%,transparent);background:linear-gradient(135deg,
+color-mix(in srgb,var(--acc2) 14%,transparent),color-mix(in srgb,var(--acc) 10%,transparent))}
+.glance ul{list-style:none;padding:0}.glance li{padding-left:28px;position:relative}
+.glance li:before{content:"✓";position:absolute;left:4px;color:var(--ok);font-weight:800}
+.tablewrap{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:620px}
+th,td{border-bottom:1px solid var(--card-b);padding:9px 10px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+.note{border-left:3px solid var(--gold);padding:8px 14px;background:color-mix(in srgb,var(--gold) 9%,transparent);border-radius:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:26px 0}
+.card{background:var(--card);border:1px solid var(--card-b);border-radius:var(--r);padding:20px;box-shadow:var(--shadow)}
+.card .ic{font-size:1.6rem}.card h3{margin:.3em 0 .2em}.card p{color:var(--muted);margin:0}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:8px 2px 18px;scroll-snap-type:x mandatory}
+.shots img{height:440px;border-radius:22px;border:1px solid var(--card-b);scroll-snap-align:start;box-shadow:var(--shadow)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.hero-grid img.phone{width:100%;max-width:330px;justify-self:center;border-radius:28px;box-shadow:var(--shadow);border:1px solid var(--card-b)}
+footer{border-top:1px solid var(--card-b);padding:28px 0 40px;color:var(--muted);font-size:.9rem}
+footer .cols{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between}
+footer a{color:var(--muted)}footer nav{display:flex;flex-wrap:wrap;gap:6px 16px;min-width:0}footer .cols>*{min-width:0}
+.small{font-size:.85rem;color:var(--muted)}
+details.faq{background:var(--card);border:1px solid var(--card-b);border-radius:14px;padding:12px 16px;margin:10px 0}
+details.faq summary{cursor:pointer;font-weight:600}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}aside.toc{position:static;max-height:none}
+.hero-grid{grid-template-columns:1fr}.shots img{height:360px}}
+@media (max-width:560px){nav.main{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px}article section{padding:18px}
+.hero{padding:34px 0 16px}}
+@media print{header.top,aside.toc,footer,.tools{display:none}body{background:#fff;color:#000}
+article section{box-shadow:none;border:none;padding:0}.layout{display:block}}
+[dir=rtl] .glance li{padding-left:0;padding-right:28px}
+@media (max-width:640px){.tablewrap{overflow:visible}table{min-width:0}table,tbody,tr,td{display:block;width:100%}
+tr:first-child{display:none}tr{border:1px solid var(--card-b);border-radius:12px;padding:6px 12px;margin:10px 0}
+td{border:none;padding:6px 0}td:before{content:attr(data-label);display:block;font-size:.72rem;letter-spacing:.05em;
+text-transform:uppercase;color:var(--muted);margin-bottom:2px}}
+</style><script>
+(function(){var r=document.documentElement,k='ll-theme';try{var s=localStorage.getItem(k);if(s)r.dataset.theme=s}catch(e){}
+window.llTheme=function(){var d=r.dataset.theme==='dark'||(!r.dataset.theme&&!matchMedia('(prefers-color-scheme: light)').matches);
+r.dataset.theme=d?'light':'dark';try{localStorage.setItem(k,r.dataset.theme)}catch(e){}};})();
+</script></head><body><header class="top"><div class="wrap bar">
+<a class="brand" href="index.es.html"><img src="assets/icon.png" alt="">Lumen Loop</a>
+<nav class="main" aria-label="Menú principal"><a href="index.es.html" class="">Inicio</a><a href="privacy.es.html" class="on">Privacidad</a><a href="terms.es.html" class="">Términos</a><a href="disclaimer.es.html" class="">Aviso legal</a><a href="delete-data.es.html" class="">Borrar datos</a><a href="support.es.html" class="">Soporte</a></nav>
+<div class="tools"><select class="lang" aria-label="Idioma" onchange="location.href=this.value"><option value="privacy.html">English</option><option value="privacy.tr.html">Türkçe</option><option value="privacy.de.html">Deutsch</option><option value="privacy.es.html" selected>Español</option><option value="privacy.fr.html">Français</option></select>
+<button class="theme" type="button" onclick="llTheme()" aria-label="Tema claro/oscuro">◐</button></div>
+</div></header><main><div class="wrap"><div class="hero"><h1><span class="grad">Política de privacidad</span></h1>
+<p class="lead">Tratamos los mínimos datos posibles. Aquí explicamos exactamente qué se trata, por qué, quién, durante cuánto tiempo y cuáles son tus derechos.</p><div class="meta"><span class="chip">Última actualización: 2026-09-29</span>
+<span class="chip">Vigente desde: 2026-09-29</span><span class="chip">RuiCodex · com.ruicodex.lumenloop</span></div></div>
+<div class="layout"><aside class="toc"><h2>Contenido</h2><ol><li><a href="#controller">Responsable del tratamiento</a></li><li><a href="#scope">Ámbito y definiciones</a></li><li><a href="#data">Qué datos tratamos</a></li><li><a href="#purposes">Finalidades y bases jurídicas</a></li><li><a href="#recipients">Destinatarios</a></li><li><a href="#transfers">Transferencias internacionales</a></li><li><a href="#retention">Conservación</a></li><li><a href="#choices">Tus opciones</a></li><li><a href="#rights">Tus derechos</a></li><li><a href="#children">Menores</a></li><li><a href="#security">Seguridad</a></li><li><a href="#automated">Decisiones automatizadas</a></li><li><a href="#changes">Cambios</a></li><li><a href="#contact">Contacto</a></li></ol></aside>
+<article><section class="glance" id="glance"><h2>En resumen</h2><ul><li>No necesitas cuenta, nombre, correo ni ubicación para jugar.</li><li>Tu progreso, lúmenes y ajustes se guardan <strong>solo en tu dispositivo</strong>.</li><li>Los anuncios los sirve <strong>Google AdMob</strong>, que usa el ID de publicidad de tu dispositivo. En el EEE, Reino Unido y Suiza se te pide antes el consentimiento y puedes cambiarlo cuando quieras.</li><li>Estadísticas de juego anónimas van a <strong>nuestro propio servidor de analítica</strong> para mejorar los puzles. Se vinculan a un identificador aleatorio, no a ti, y nunca se venden.</li><li>Los pagos los procesa <strong>Google Play</strong>; nunca vemos tus datos de pago.</li><li>No vendemos datos personales ni los usamos para nada distinto de lo que describe esta política.</li><li>Puedes borrar tus datos cuando quieras — ver <a href="delete-data.es.html">Borrar datos</a> — o escribir a <a href="mailto:info@ruicodex.com">info@ruicodex.com</a>.</li></ul></section><section id="controller"><h2><span class="n">01</span>Responsable del tratamiento</h2>
+<p>Esta Política explica cómo <strong>RuiCodex</strong> (Estambul, Turquía; «RuiCodex», «nosotros») trata datos personales cuando usas el juego móvil <strong>Lumen Loop</strong> (paquete <code>com.ruicodex.lumenloop</code>, el «Juego») y este sitio web (el «Sitio»). RuiCodex es el responsable del tratamiento aquí descrito, salvo cuando un tercero (como Google) actúa como responsable independiente de su propio tratamiento, según se explica abajo.</p>
+<p>Contacto para privacidad: <a href="mailto:info@ruicodex.com">info@ruicodex.com</a>. Indica «Privacidad – Lumen Loop» en el asunto.</p></section><section id="scope"><h2><span class="n">02</span>Ámbito y definiciones</h2>
+<p>Esta política se aplica al Juego en todos los dispositivos y al Sitio, no a sitios, servicios o anuncios de terceros. «Datos personales» tiene el significado del Reglamento (UE) 2016/679 («RGPD»), la Ley Orgánica 3/2018 (LOPDGDD), la ley turca n.º 6698 («KVKK») y normas equivalentes, incluidas las de países de Latinoamérica.</p></section><section id="data"><h2><span class="n">03</span>Qué datos tratamos</h2>
+<h3>1. Datos guardados solo en tu dispositivo</h3>
+<p>El Juego guarda tu progreso, estrellas, lúmenes, nivel de jugador, misiones, calendario de recompensas, tema de rayo, ajustes, la lista de objetos que posees, las categorías de opiniones enviadas y algunos contadores para programar anuncios y solicitudes de valoración en una base de datos local y en el almacenamiento privado de la app. <strong>Estos datos no se nos transmiten</strong> y permanecen en tu dispositivo hasta que los restableces o desinstalas el Juego.</p>
+<h3>2. Datos publicitarios (Google AdMob)</h3>
+<p>El Juego se financia con anuncios de Google AdMob y usa la Plataforma de mensajes de usuario («UMP») de Google para recoger el consentimiento cuando es necesario. Al solicitar o mostrar un anuncio, Google puede tratar: el ID de publicidad de tu dispositivo, tu dirección IP y una ubicación aproximada derivada de ella, información del dispositivo y del sistema (modelo, versión, idioma, tamaño de pantalla), información de la app, los anuncios mostrados y tus interacciones (impresiones, clics, si completaste un vídeo con premio) y tus opciones de consentimiento, para servir, limitar la frecuencia, medir y prevenir el fraude y, con tu consentimiento o si la ley lo permite, personalizar anuncios.</p>
+<p>Google actúa como responsable independiente. Solo recibimos informes agregados que no te identifican. Ver <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google la información</a> y la <a href="https://support.google.com/admob/answer/6128543">información de datos de AdMob</a>.</p>
+<h3>3. Consentimiento</h3>
+<p>En el EEE, Reino Unido y Suiza se muestra un formulario de consentimiento antes del primer anuncio (nunca en la pantalla de inicio). Tus elecciones se guardan en tu dispositivo (cadena IAB TCF) y se envían a Google con las solicitudes de anuncios.</p>
+<h3>4. Analítica del juego (servidor propio)</h3>
+<p>Para saber qué puzles son demasiado difíciles o fáciles y si las funciones funcionan, el Juego envía eventos de uso a un servicio de analítica (PostHog) que RuiCodex opera en su propia infraestructura: por ejemplo, apertura o paso a segundo plano de la app, fin de la introducción, nivel iniciado o resuelto (identificador, estrellas, movimientos, par, pistas, tiempo y dificultad), pistas y vídeos usados, recompensas diarias, misiones y semanales reclamadas, nivel de jugador alcanzado, visita a la tienda y resultado de un intento de compra (producto y resultado, nunca datos de pago), solicitud de valoración (no si valoraste ni qué escribiste) y la categoría de tus opiniones. Cada evento incluye un identificador aleatorio generado en tu dispositivo, versión de la app, modelo, versión del sistema, idioma y tamaño de pantalla.</p>
+<p>Estos eventos <strong>no</strong> se vinculan a tu nombre, correo ni ID de publicidad y <strong>no</strong> se graban sesiones. Como en toda conexión, tu IP llega al servidor; se usa para transmitir los datos, proteger el servicio y, en su caso, deducir un país aproximado para estadísticas agregadas, no para identificarte.</p>
+<h3>5. Compras (Google Play)</h3>
+<p>Las compras las procesa íntegramente Google Play. Nunca recibimos datos de tarjeta o pago. Google Play facilita al Juego el número de pedido, el token, el producto y el estado, que el Juego usa en tu dispositivo para entregar el artículo, evitar abonos duplicados y restaurar compras únicas. Estos datos no se envían a nuestros servidores; la analítica anónima solo registra el producto intentado y el resultado.</p>
+<h3>6. Opiniones dentro del juego</h3>
+<p>El formulario «Opinión de la comunidad» registra solo la categoría y tu voto opcional. El texto del mensaje <strong>no</strong> lo envía el Juego: se abre tu app de correo y, si decides enviarlo, recibimos tu dirección y mensaje. Las opiniones son independientes de las valoraciones de la tienda: nunca pedimos una puntuación concreta ni recompensamos valoraciones.</p>
+<h3>7. Soporte</h3>
+<p>Si nos escribes, tratamos tu correo, el contenido y los adjuntos para responderte.</p>
+<h3>8. Notificaciones</h3>
+<p>Los recordatorios, si los activas, se programan localmente; no se usa servidor de notificaciones push.</p>
+<h3>9. Este sitio web</h3>
+<p>El Sitio se aloja en GitHub Pages (GitHub, Inc.), que puede registrar datos técnicos como tu IP con fines de seguridad (<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">Declaración de privacidad de GitHub</a>). El Sitio <strong>no usa cookies, analítica ni seguimiento</strong>; solo el almacenamiento local recuerda tu tema claro/oscuro.</p>
+<h3>10. Datos que no recogemos</h3>
+<p>No recogemos nombre, correo (salvo que nos escribas), teléfono, contactos, fotos, ubicación precisa, datos de salud ni financieros; el Juego no tiene chat, perfiles ni clasificaciones.</p></section><section id="purposes"><h2><span class="n">04</span>Finalidades y bases jurídicas</h2>
+<div class="tablewrap"><table><tr><th>Finalidad</th><th>Datos</th><th>Base jurídica</th></tr>
+<tr><td data-label="Finalidad">Prestar el Juego y guardar tu progreso</td><td data-label="Datos">Datos del dispositivo</td><td data-label="Base jurídica">Ejecución del contrato (art. 6.1.b RGPD)</td></tr>
+<tr><td data-label="Finalidad">Anuncios no personalizados, límite de frecuencia, antifraude</td><td data-label="Datos">Datos publicitarios</td><td data-label="Base jurídica">Interés legítimo en financiar un juego gratuito (art. 6.1.f RGPD); consentimiento cuando la ley lo exija para acceder al dispositivo (art. 22.2 LSSI)</td></tr>
+<tr><td data-label="Finalidad">Anuncios personalizados</td><td data-label="Datos">Datos publicitarios</td><td data-label="Base jurídica">Consentimiento (art. 6.1.a RGPD), revocable en cualquier momento</td></tr>
+<tr><td data-label="Finalidad">Entregar y restaurar compras</td><td data-label="Datos">Datos de compra en el dispositivo</td><td data-label="Base jurídica">Ejecución del contrato (art. 6.1.b RGPD)</td></tr>
+<tr><td data-label="Finalidad">Mejorar puzles y dificultad, detectar errores</td><td data-label="Datos">Analítica</td><td data-label="Base jurídica">Interés legítimo (art. 6.1.f RGPD)</td></tr>
+<tr><td data-label="Finalidad">Atender opiniones y soporte</td><td data-label="Datos">Correo y contenido</td><td data-label="Base jurídica">Art. 6.1.b y f RGPD</td></tr>
+<tr><td data-label="Finalidad">Obligaciones legales y reclamaciones</td><td data-label="Datos">Registros pertinentes</td><td data-label="Base jurídica">Art. 6.1.c y f RGPD</td></tr>
+</table></div>
+<p>En Turquía se aplican las bases equivalentes del art. 5 KVKK. Cuando nos basamos en el interés legítimo, lo hemos ponderado con tus derechos; puedes oponerte en cualquier momento.</p></section><section id="recipients"><h2><span class="n">05</span>Destinatarios</h2>
+<ul>
+<li><strong>Google</strong> (Google Ireland Limited en EEE/Reino Unido/Suiza; en otros lugares Google LLC) — AdMob, UMP, facturación y valoraciones de Google Play, como responsable independiente.</li>
+<li><strong>Nuestra infraestructura de analítica</strong> y su proveedor de alojamiento, como encargado.</li>
+<li><strong>GitHub, Inc.</strong> — alojamiento del Sitio.</li>
+<li><strong>Nuestro proveedor de correo</strong> — si nos escribes.</li>
+<li><strong>Autoridades</strong> — solo por obligación legal o para defender derechos.</li>
+<li><strong>Un sucesor</strong> — en caso de transmisión del Juego o del negocio, vinculado por esta política.</li>
+</ul>
+<p><strong>No vendemos datos personales.</strong></p></section><section id="transfers"><h2><span class="n">06</span>Transferencias internacionales</h2><p>Google y GitHub pueden tratar datos fuera de tu país, incluidos EE. UU., con garantías adecuadas como las Cláusulas Contractuales Tipo de la Comisión Europea y decisiones de adecuación (incluido el Marco de Privacidad de Datos UE-EE. UU.). Al estar RuiCodex establecida en Turquía, las transferencias del EEE hacia nosotros se basan en garantías adecuadas. Puedes solicitar información sobre ellas.</p></section><section id="retention"><h2><span class="n">07</span>Conservación</h2>
+<div class="tablewrap"><table><tr><th>Datos</th><th>Plazo</th></tr>
+<tr><td data-label="Datos">Datos en tu dispositivo</td><td data-label="Plazo">Hasta que uses «Restablecer todos los datos», borres los datos de la app o la desinstales</td></tr>
+<tr><td data-label="Datos">Analítica</td><td data-label="Plazo">El tiempo necesario y como máximo 24 meses; después se borra o se agrega sin relación con un identificador</td></tr>
+<tr><td data-label="Datos">Correos de soporte y opiniones</td><td data-label="Plazo">Hasta resolver la solicitud y después hasta 3 años para seguimiento y reclamaciones</td></tr>
+<tr><td data-label="Datos">Datos publicitarios de Google</td><td data-label="Plazo">Según las políticas de Google</td></tr>
+<tr><td data-label="Datos">Registros del Sitio</td><td data-label="Plazo">Según las políticas de GitHub</td></tr>
+</table></div></section><section id="choices"><h2><span class="n">08</span>Tus opciones</h2>
+<ul>
+<li><strong>Consentimiento publicitario:</strong> cámbialo o retíralo en <em>Perfil › Privacidad de anuncios</em> cuando esté disponible.</li>
+<li><strong>ID de publicidad:</strong> restablécelo o bórralo en <em>Ajustes › Google › Anuncios</em>.</li>
+<li><strong>Menos anuncios:</strong> «Quitar anuncios» o el Luminary Pass desactivan banners e intersticiales.</li>
+<li><strong>Datos del juego:</strong> bórralos en <em>Ajustes › Datos</em> o desinstala el Juego.</li>
+<li><strong>Analítica:</strong> puedes oponerte escribiéndonos.</li>
+<li><strong>Notificaciones:</strong> actívalas o desactívalas en <em>Ajustes</em>.</li>
+</ul></section><section id="rights"><h2><span class="n">09</span>Tus derechos</h2>
+<p>Según el RGPD y la LOPDGDD tienes derecho de acceso, rectificación, supresión, limitación, portabilidad y <strong>oposición</strong>, a retirar el consentimiento en cualquier momento y a reclamar ante una autoridad de control (en España, la <a href="https://www.aepd.es">Agencia Española de Protección de Datos</a>). En Turquía rigen los derechos del art. 11 KVKK; en EE. UU. (California y otros estados), los derechos a saber, acceder, corregir, borrar y excluirte de la «venta» o «compartición» para publicidad dirigida (no vendemos datos; los anuncios personalizados de Google pueden desactivarse mediante tu ID de publicidad y <em>Perfil › Privacidad de anuncios</em>); en Brasil, los de la LGPD; y en otros países de Latinoamérica, los de su legislación (por ejemplo, derechos ARCO en México).</p>
+<p><strong>Cómo ejercerlos:</strong> escribe a <a href="mailto:info@ruicodex.com">info@ruicodex.com</a>. Respondemos en un mes y gratis. Como no pedimos tu identidad, solo podemos actuar sobre datos que podamos vincularte con fiabilidad (por ejemplo, tus correos). Los datos del juego están en tu dispositivo y bajo tu control.</p></section><section id="children"><h2><span class="n">10</span>Menores</h2><p>El Juego está dirigido a mayores de <strong>13 años</strong> y no a niños; los anuncios se limitan a la clasificación «G». Si no tienes la edad para consentir en tu país (en España, 14 años), solo puedes usar el Juego con el consentimiento de tus padres o tutores, también para las compras. No recogemos a sabiendas datos de menores de 13 años; si ocurre, escribe a <a href="mailto:info@ruicodex.com">info@ruicodex.com</a> y los borraremos.</p></section><section id="security"><h2><span class="n">11</span>Seguridad</h2><p>Protegemos los datos con medidas técnicas y organizativas adecuadas, como cifrado en tránsito (HTTPS/TLS), restricciones de acceso y minimización. Nadie puede garantizar una seguridad absoluta; notificaremos las violaciones de datos cuando la ley lo exija.</p></section><section id="automated"><h2><span class="n">12</span>Decisiones automatizadas</h2><p>No tomamos decisiones basadas únicamente en tratamientos automatizados con efectos jurídicos o similares. La selección y personalización de anuncios las realiza Google.</p></section><section id="changes"><h2><span class="n">13</span>Cambios</h2><p>Podemos actualizar esta política; la versión vigente y su fecha están siempre en esta página. Anunciaremos los cambios importantes con antelación en el Juego o aquí y pediremos de nuevo el consentimiento si es necesario.</p></section><section id="contact"><h2><span class="n">14</span>Contacto</h2><p>RuiCodex — Estambul, Turquía · <a href="mailto:info@ruicodex.com">info@ruicodex.com</a> · Asunto: «Privacidad – Lumen Loop». Para borrar datos, ver <a href="delete-data.es.html">Borrar datos</a>.</p></section></article></div></div></main><footer><div class="wrap"><div class="cols"><nav><a href="index.es.html">Inicio</a><a href="privacy.es.html">Privacidad</a><a href="terms.es.html">Términos</a><a href="disclaimer.es.html">Aviso legal</a><a href="delete-data.es.html">Borrar datos</a><a href="support.es.html">Soporte</a></nav>
+<div><a href="mailto:info@ruicodex.com">info@ruicodex.com</a></div></div>
+<p class="small">© 2026 RuiCodex. Todos los derechos reservados. Google Play y el logotipo de Google Play son marcas de Google LLC.</p>
+<p class="small">Las traducciones se ofrecen por comodidad. En caso de discrepancia prevalece la versión en inglés, salvo que la ley imperativa disponga otra cosa.</p></div></footer></body></html>

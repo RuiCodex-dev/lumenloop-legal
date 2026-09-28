@@ -1,20 +1,117 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Support — Lumen Loop</title><style>
-:root{--bg:#080a18;--card:#12152b;--fg:#e8eaff;--muted:#a3a8c9;--acc:#00e5ff;--acc2:#6c5ce7}
-@media (prefers-color-scheme: light){:root{--bg:#f4f3ff;--card:#fff;--fg:#141733;--muted:#555a7a}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
-font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-header{background:linear-gradient(135deg,var(--acc2),#12304a);padding:28px 16px;color:#fff}
-header .w,main{max-width:760px;margin:0 auto}
-header a{color:#fff;margin-right:14px;text-decoration:none;opacity:.9}
-h1{margin:.2em 0 .1em;font-size:1.7em}main{padding:16px}
-section{background:var(--card);border-radius:16px;padding:16px 18px;margin:14px 0}
-h2{margin:.1em 0 .4em;font-size:1.15em;color:var(--acc)}p,li{color:var(--fg)}
-.meta{color:#dfe3ff;font-size:.9em}footer{color:var(--muted);text-align:center;padding:24px 16px;font-size:.9em}
-a{color:var(--acc)}
-</style></head><body>
-<header><div class="w"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="privacy.tr.html">Gizlilik</a><a href="terms.html">Terms</a><a href="support.html">Support</a><h1>Support</h1>
-<div class="meta">Lumen Loop · com.ruicodex.lumenloop · RuiCodex · 2026-09-26</div></div></header>
-<main><p>We're happy to help.</p><section><h2>Need help?</h2><p>Write to <a href="mailto:info@ruicodex.com">info@ruicodex.com</a> with your device model and what happened. You can also use Profile › Community feedback inside the game.</p></section><section><h2>Restoring purchases</h2><p>Open the Store (or Profile) and tap "Restore purchases" while signed in to the same Google account you bought with.</p></section><section><h2>Stuck on a puzzle?</h2><p>Every puzzle is verified solvable. Hints place one piece correctly; when you run out of lumens you can watch a short video for a free hint (up to 5 per day).</p></section></main>
-<footer>© 2026 RuiCodex · <a href="mailto:info@ruicodex.com">info@ruicodex.com</a></footer></body></html>
+<title>Support — Lumen Loop</title><meta name="description" content="Lumen Loop help and support.">
+<link rel="canonical" href="https://ruicodex-dev.github.io/lumenloop-legal/support.html"><link rel="alternate" hreflang="en" href="https://ruicodex-dev.github.io/lumenloop-legal/support.html"><link rel="alternate" hreflang="tr" href="https://ruicodex-dev.github.io/lumenloop-legal/support.tr.html"><link rel="alternate" hreflang="de" href="https://ruicodex-dev.github.io/lumenloop-legal/support.de.html"><link rel="alternate" hreflang="es" href="https://ruicodex-dev.github.io/lumenloop-legal/support.es.html"><link rel="alternate" hreflang="fr" href="https://ruicodex-dev.github.io/lumenloop-legal/support.fr.html"><link rel="alternate" hreflang="x-default" href="https://ruicodex-dev.github.io/lumenloop-legal/support.html">
+<meta property="og:title" content="Support — Lumen Loop"><meta property="og:description" content="Lumen Loop help and support.">
+<meta property="og:image" content="https://ruicodex-dev.github.io/lumenloop-legal/assets/feature.png"><meta property="og:type" content="website">
+<meta name="theme-color" content="#070916"><link rel="icon" href="assets/icon.png">
+<style>
+:root{--bg:#070916;--bg2:#0e1230;--card:rgba(255,255,255,.045);--card-b:rgba(255,255,255,.09);
+--fg:#eef0ff;--muted:#a9aecf;--acc:#00e5ff;--acc2:#8c7bff;--gold:#ffc94a;--ok:#7cffb2;
+--shadow:0 10px 40px rgba(0,0,0,.35);--r:18px}
+:root[data-theme=light]{--bg:#f6f5ff;--bg2:#ece9ff;--card:#ffffff;--card-b:rgba(20,23,51,.08);
+--fg:#141733;--muted:#555a7a;--acc:#007a93;--acc2:#5b48e0;--gold:#9a6b00;--ok:#127a45;--shadow:0 8px 30px rgba(20,23,51,.08)}
+@media (prefers-color-scheme: light){:root:not([data-theme=dark]){--bg:#f6f5ff;--bg2:#ece9ff;--card:#ffffff;
+--card-b:rgba(20,23,51,.08);--fg:#141733;--muted:#555a7a;--acc:#007a93;--acc2:#5b48e0;--gold:#9a6b00;--ok:#127a45;
+--shadow:0 8px 30px rgba(20,23,51,.08)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 10% -10%,rgba(140,123,255,.25),transparent 60%),
+radial-gradient(900px 500px at 110% 0%,rgba(0,229,255,.16),transparent 60%),var(--bg);color:var(--fg);
+font:16px/1.65 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--acc);text-underline-offset:3px}a:hover{opacity:.85}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--card-b)}
+.bar{display:flex;align-items:center;gap:14px;min-height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);text-decoration:none;font-size:1.05rem}
+.brand img{width:34px;height:34px;border-radius:10px}
+nav.main{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto;align-items:center}
+nav.main a{color:var(--muted);text-decoration:none;padding:7px 11px;border-radius:999px;font-size:.93rem;white-space:nowrap;line-height:1.2}
+nav.main a.on,nav.main a:hover{color:var(--fg);background:var(--card)}
+.tools{display:flex;gap:8px;align-items:center}
+select.lang,button.theme{background:var(--card);color:var(--fg);border:1px solid var(--card-b);border-radius:999px;
+padding:7px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+.hero{padding:56px 0 28px}
+.hero h1{font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.12;margin:.1em 0 .25em;letter-spacing:-.02em}
+.hero p.lead{color:var(--muted);font-size:1.12rem;max-width:720px;margin:0}
+.grad{background:linear-gradient(90deg,var(--acc),var(--acc2) 60%,#ff6b9a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--card);
+border:1px solid var(--card-b);color:var(--muted);font-size:.85rem}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:14px;font-weight:700;text-decoration:none;
+background:linear-gradient(135deg,var(--acc2),var(--acc));color:#fff;box-shadow:var(--shadow)}
+.btn.ghost{background:var(--card);color:var(--fg);border:1px solid var(--card-b);box-shadow:none}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:32px;padding:10px 0 60px}.layout>*{min-width:0}
+aside.toc{position:sticky;top:84px;align-self:start;max-height:calc(100vh - 100px);overflow:auto;padding:16px;
+background:var(--card);border:1px solid var(--card-b);border-radius:var(--r)}
+aside.toc h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+aside.toc ol{margin:0;padding-left:20px}aside.toc li{margin:3px 0;font-size:.9rem}aside.toc a{color:var(--fg);text-decoration:none}
+aside.toc a:hover{color:var(--acc)}
+article section{background:var(--card);border:1px solid var(--card-b);border-radius:var(--r);padding:22px 24px;margin:0 0 16px;
+scroll-margin-top:84px;box-shadow:var(--shadow)}
+article h2{margin:0 0 10px;font-size:1.22rem;display:flex;gap:10px;align-items:baseline}
+article h2 .n{color:var(--acc);font-variant-numeric:tabular-nums;font-size:.95rem}
+article h3{font-size:1.02rem;margin:18px 0 6px}
+article p,article li{color:var(--fg)}article ul,article ol{padding-left:22px}article li{margin:4px 0}
+.glance{border:1px solid color-mix(in srgb,var(--acc) 40%,transparent);background:linear-gradient(135deg,
+color-mix(in srgb,var(--acc2) 14%,transparent),color-mix(in srgb,var(--acc) 10%,transparent))}
+.glance ul{list-style:none;padding:0}.glance li{padding-left:28px;position:relative}
+.glance li:before{content:"✓";position:absolute;left:4px;color:var(--ok);font-weight:800}
+.tablewrap{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:620px}
+th,td{border-bottom:1px solid var(--card-b);padding:9px 10px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+.note{border-left:3px solid var(--gold);padding:8px 14px;background:color-mix(in srgb,var(--gold) 9%,transparent);border-radius:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:26px 0}
+.card{background:var(--card);border:1px solid var(--card-b);border-radius:var(--r);padding:20px;box-shadow:var(--shadow)}
+.card .ic{font-size:1.6rem}.card h3{margin:.3em 0 .2em}.card p{color:var(--muted);margin:0}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:8px 2px 18px;scroll-snap-type:x mandatory}
+.shots img{height:440px;border-radius:22px;border:1px solid var(--card-b);scroll-snap-align:start;box-shadow:var(--shadow)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.hero-grid img.phone{width:100%;max-width:330px;justify-self:center;border-radius:28px;box-shadow:var(--shadow);border:1px solid var(--card-b)}
+footer{border-top:1px solid var(--card-b);padding:28px 0 40px;color:var(--muted);font-size:.9rem}
+footer .cols{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between}
+footer a{color:var(--muted)}footer nav{display:flex;flex-wrap:wrap;gap:6px 16px;min-width:0}footer .cols>*{min-width:0}
+.small{font-size:.85rem;color:var(--muted)}
+details.faq{background:var(--card);border:1px solid var(--card-b);border-radius:14px;padding:12px 16px;margin:10px 0}
+details.faq summary{cursor:pointer;font-weight:600}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}aside.toc{position:static;max-height:none}
+.hero-grid{grid-template-columns:1fr}.shots img{height:360px}}
+@media (max-width:560px){nav.main{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px}article section{padding:18px}
+.hero{padding:34px 0 16px}}
+@media print{header.top,aside.toc,footer,.tools{display:none}body{background:#fff;color:#000}
+article section{box-shadow:none;border:none;padding:0}.layout{display:block}}
+[dir=rtl] .glance li{padding-left:0;padding-right:28px}
+@media (max-width:640px){.tablewrap{overflow:visible}table{min-width:0}table,tbody,tr,td{display:block;width:100%}
+tr:first-child{display:none}tr{border:1px solid var(--card-b);border-radius:12px;padding:6px 12px;margin:10px 0}
+td{border:none;padding:6px 0}td:before{content:attr(data-label);display:block;font-size:.72rem;letter-spacing:.05em;
+text-transform:uppercase;color:var(--muted);margin-bottom:2px}}
+</style><script>
+(function(){var r=document.documentElement,k='ll-theme';try{var s=localStorage.getItem(k);if(s)r.dataset.theme=s}catch(e){}
+window.llTheme=function(){var d=r.dataset.theme==='dark'||(!r.dataset.theme&&!matchMedia('(prefers-color-scheme: light)').matches);
+r.dataset.theme=d?'light':'dark';try{localStorage.setItem(k,r.dataset.theme)}catch(e){}};})();
+</script></head><body><header class="top"><div class="wrap bar">
+<a class="brand" href="index.html"><img src="assets/icon.png" alt="">Lumen Loop</a>
+<nav class="main" aria-label="Main menu"><a href="index.html" class="">Home</a><a href="privacy.html" class="">Privacy</a><a href="terms.html" class="">Terms</a><a href="disclaimer.html" class="">Disclaimer</a><a href="delete-data.html" class="">Delete data</a><a href="support.html" class="on">Support</a></nav>
+<div class="tools"><select class="lang" aria-label="Language" onchange="location.href=this.value"><option value="support.html" selected>English</option><option value="support.tr.html">Türkçe</option><option value="support.de.html">Deutsch</option><option value="support.es.html">Español</option><option value="support.fr.html">Français</option></select>
+<button class="theme" type="button" onclick="llTheme()" aria-label="Switch light/dark theme">◐</button></div>
+</div></header><main><div class="wrap"><div class="hero"><h1><span class="grad">Support</span></h1>
+<p class="lead">Need help? Find quick answers below or contact us directly.</p><div class="meta"><span class="chip">Last updated: 2026-09-29</span>
+<span class="chip">Effective: 2026-09-29</span><span class="chip">RuiCodex · com.ruicodex.lumenloop</span></div></div>
+<div class="layout"><aside class="toc"><h2>Contents</h2><ol><li><a href="#contact">Contact us</a></li><li><a href="#faq">Frequently asked questions</a></li><li><a href="#requirements">Requirements</a></li></ol></aside>
+<article><section id="contact"><h2><span class="n">01</span>Contact us</h2><p>Email <a href="mailto:info@ruicodex.com">info@ruicodex.com</a> — we usually reply within 2 business days. Please include your device model, Android version, the app version (<em>Profile › Settings › About</em>) and a short description or screenshot of the problem. For purchase issues, include the Google Play order number (starts with <code>GPA.</code>).</p>
+<p>You can also send suggestions and bug reports in the Game under <em>Profile › Community feedback</em>.</p></section><section id="faq"><h2><span class="n">02</span>Frequently asked questions</h2>
+<details class="faq"><summary>How do I play?</summary><p>Tap a mirror, splitter or prism to turn it; drag a movable piece onto an empty tile to move it. Make every target receive light of exactly its colour. Pieces with a small dot are fixed.</p></details>
+<details class="faq"><summary>I'm stuck on a level.</summary><p>Every level is verified solvable. A hint (10 lumens) places one piece correctly. If you are out of lumens, you can watch a short optional video for a free hint (up to 5 per day). Luminary Pass owners get the first hint free on every level.</p></details>
+<details class="faq"><summary>Why are later levels so hard?</summary><p>Difficulty rises level by level: pieces start scattered, some pieces are decoys you don't need, and later worlds use two separate beams. Every tenth level is a Trial with double rewards.</p></details>
+<details class="faq"><summary>My purchase did not arrive.</summary><p>Some payment methods are confirmed with a delay. Reopen the Game, then tap <em>Restore purchases</em> in the Store or Profile. If it still does not arrive, email us with your order number.</p></details>
+<details class="faq"><summary>How do I restore Remove Ads or the Luminary Pass on a new phone?</summary><p>Sign in with the same Google account, open the Store and tap <em>Restore purchases</em>. Lumen packs are consumable and cannot be restored.</p></details>
+<details class="faq"><summary>How do I get a refund?</summary><p>Refunds are handled by Google Play: see <a href="https://support.google.com/googleplay/answer/2479637">Google Play refunds</a>. Your statutory rights are unaffected.</p></details>
+<details class="faq"><summary>I lost my progress.</summary><p>Progress is stored only on your device. It is lost if the Game is uninstalled or its data is cleared, and we cannot restore it.</p></details>
+<details class="faq"><summary>How do I change ad privacy settings?</summary><p>In the EEA, UK and Switzerland: <em>Profile › Ad privacy choices</em>. Everywhere: reset or delete your advertising ID in the Android settings. See <a href="privacy.html">Privacy</a>.</p></details>
+<details class="faq"><summary>How do I delete my data?</summary><p>See <a href="delete-data.html">Delete data</a>.</p></details>
+<details class="faq"><summary>How do I report an inappropriate ad?</summary><p>Email us the time and, if possible, a screenshot of the ad. We forward reports to the ad network.</p></details></section><section id="requirements"><h2><span class="n">03</span>Requirements</h2><p>Android 7.0 or later. Puzzles work offline; ads, purchases and statistics need an internet connection. Languages: English, Turkish, German, Spanish, French.</p></section></article></div></div></main><footer><div class="wrap"><div class="cols"><nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="delete-data.html">Delete data</a><a href="support.html">Support</a></nav>
+<div><a href="mailto:info@ruicodex.com">info@ruicodex.com</a></div></div>
+<p class="small">© 2026 RuiCodex. All rights reserved. Google Play and the Google Play logo are trademarks of Google LLC.</p>
+<p class="small">Translations are provided for convenience. If versions differ, the English version prevails unless mandatory law provides otherwise.</p></div></footer></body></html>

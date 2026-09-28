@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ruicodex-dev.github.io/lumenloop-legal/sitemap.xml
