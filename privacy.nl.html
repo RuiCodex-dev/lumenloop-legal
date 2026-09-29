@@ -1,0 +1,177 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacyverklaring — Lumen Loop</title><meta name="description" content="Hoe RuiCodex persoonsgegevens verwerkt in Lumen Loop.">
+<link rel="canonical" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.nl.html"><link rel="alternate" hreflang="en" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.html"><link rel="alternate" hreflang="tr" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.tr.html"><link rel="alternate" hreflang="de" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.de.html"><link rel="alternate" hreflang="es" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.es.html"><link rel="alternate" hreflang="fr" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.fr.html"><link rel="alternate" hreflang="nl" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.nl.html"><link rel="alternate" hreflang="x-default" href="https://ruicodex-dev.github.io/lumenloop-legal/privacy.html">
+<meta property="og:title" content="Privacyverklaring — Lumen Loop"><meta property="og:description" content="Hoe RuiCodex persoonsgegevens verwerkt in Lumen Loop.">
+<meta property="og:image" content="https://ruicodex-dev.github.io/lumenloop-legal/assets/feature.png"><meta property="og:type" content="website">
+<meta name="theme-color" content="#070916"><link rel="icon" href="assets/icon.png">
+<style>
+:root{--bg:#070916;--bg2:#0e1230;--card:rgba(255,255,255,.045);--card-b:rgba(255,255,255,.09);
+--fg:#eef0ff;--muted:#a9aecf;--acc:#00e5ff;--acc2:#8c7bff;--gold:#ffc94a;--ok:#7cffb2;
+--shadow:0 10px 40px rgba(0,0,0,.35);--r:18px}
+:root[data-theme=light]{--bg:#f6f5ff;--bg2:#ece9ff;--card:#ffffff;--card-b:rgba(20,23,51,.08);
+--fg:#141733;--muted:#555a7a;--acc:#007a93;--acc2:#5b48e0;--gold:#9a6b00;--ok:#127a45;--shadow:0 8px 30px rgba(20,23,51,.08)}
+@media (prefers-color-scheme: light){:root:not([data-theme=dark]){--bg:#f6f5ff;--bg2:#ece9ff;--card:#ffffff;
+--card-b:rgba(20,23,51,.08);--fg:#141733;--muted:#555a7a;--acc:#007a93;--acc2:#5b48e0;--gold:#9a6b00;--ok:#127a45;
+--shadow:0 8px 30px rgba(20,23,51,.08)}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 10% -10%,rgba(140,123,255,.25),transparent 60%),
+radial-gradient(900px 500px at 110% 0%,rgba(0,229,255,.16),transparent 60%),var(--bg);color:var(--fg);
+font:16px/1.65 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--acc);text-underline-offset:3px}a:hover{opacity:.85}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--card-b)}
+.bar{display:flex;align-items:center;gap:14px;min-height:64px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);text-decoration:none;font-size:1.05rem}
+.brand img{width:34px;height:34px;border-radius:10px}
+nav.main{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto;align-items:center}
+nav.main a{color:var(--muted);text-decoration:none;padding:7px 11px;border-radius:999px;font-size:.93rem;white-space:nowrap;line-height:1.2}
+nav.main a.on,nav.main a:hover{color:var(--fg);background:var(--card)}
+.tools{display:flex;gap:8px;align-items:center}
+select.lang,button.theme{background:var(--card);color:var(--fg);border:1px solid var(--card-b);border-radius:999px;
+padding:7px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+.hero{padding:56px 0 28px}
+.hero h1{font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.12;margin:.1em 0 .25em;letter-spacing:-.02em}
+.hero p.lead{color:var(--muted);font-size:1.12rem;max-width:720px;margin:0}
+.grad{background:linear-gradient(90deg,var(--acc),var(--acc2) 60%,#ff6b9a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;background:var(--card);
+border:1px solid var(--card-b);color:var(--muted);font-size:.85rem}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:14px;font-weight:700;text-decoration:none;
+background:linear-gradient(135deg,var(--acc2),var(--acc));color:#fff;box-shadow:var(--shadow)}
+.btn.ghost{background:var(--card);color:var(--fg);border:1px solid var(--card-b);box-shadow:none}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:32px;padding:10px 0 60px}.layout>*{min-width:0}
+aside.toc{position:sticky;top:84px;align-self:start;max-height:calc(100vh - 100px);overflow:auto;padding:16px;
+background:var(--card);border:1px solid var(--card-b);border-radius:var(--r)}
+aside.toc h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+aside.toc ol{margin:0;padding-left:20px}aside.toc li{margin:3px 0;font-size:.9rem}aside.toc a{color:var(--fg);text-decoration:none}
+aside.toc a:hover{color:var(--acc)}
+article section{background:var(--card);border:1px solid var(--card-b);border-radius:var(--r);padding:22px 24px;margin:0 0 16px;
+scroll-margin-top:84px;box-shadow:var(--shadow)}
+article h2{margin:0 0 10px;font-size:1.22rem;display:flex;gap:10px;align-items:baseline}
+article h2 .n{color:var(--acc);font-variant-numeric:tabular-nums;font-size:.95rem}
+article h3{font-size:1.02rem;margin:18px 0 6px}
+article p,article li{color:var(--fg)}article ul,article ol{padding-left:22px}article li{margin:4px 0}
+.glance{border:1px solid color-mix(in srgb,var(--acc) 40%,transparent);background:linear-gradient(135deg,
+color-mix(in srgb,var(--acc2) 14%,transparent),color-mix(in srgb,var(--acc) 10%,transparent))}
+.glance ul{list-style:none;padding:0}.glance li{padding-left:28px;position:relative}
+.glance li:before{content:"✓";position:absolute;left:4px;color:var(--ok);font-weight:800}
+.tablewrap{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:620px}
+th,td{border-bottom:1px solid var(--card-b);padding:9px 10px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+.note{border-left:3px solid var(--gold);padding:8px 14px;background:color-mix(in srgb,var(--gold) 9%,transparent);border-radius:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:26px 0}
+.card{background:var(--card);border:1px solid var(--card-b);border-radius:var(--r);padding:20px;box-shadow:var(--shadow)}
+.card .ic{font-size:1.6rem}.card h3{margin:.3em 0 .2em}.card p{color:var(--muted);margin:0}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:8px 2px 18px;scroll-snap-type:x mandatory}
+.shots img{height:440px;border-radius:22px;border:1px solid var(--card-b);scroll-snap-align:start;box-shadow:var(--shadow)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.hero-grid img.phone{width:100%;max-width:330px;justify-self:center;border-radius:28px;box-shadow:var(--shadow);border:1px solid var(--card-b)}
+footer{border-top:1px solid var(--card-b);padding:28px 0 40px;color:var(--muted);font-size:.9rem}
+footer .cols{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between}
+footer a{color:var(--muted)}footer nav{display:flex;flex-wrap:wrap;gap:6px 16px;min-width:0}footer .cols>*{min-width:0}
+.small{font-size:.85rem;color:var(--muted)}
+details.faq{background:var(--card);border:1px solid var(--card-b);border-radius:14px;padding:12px 16px;margin:10px 0}
+details.faq summary{cursor:pointer;font-weight:600}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}aside.toc{position:static;max-height:none}
+.hero-grid{grid-template-columns:1fr}.shots img{height:360px}}
+@media (max-width:560px){nav.main{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px}article section{padding:18px}
+.hero{padding:34px 0 16px}}
+@media print{header.top,aside.toc,footer,.tools{display:none}body{background:#fff;color:#000}
+article section{box-shadow:none;border:none;padding:0}.layout{display:block}}
+[dir=rtl] .glance li{padding-left:0;padding-right:28px}
+@media (max-width:640px){.tablewrap{overflow:visible}table{min-width:0}table,tbody,tr,td{display:block;width:100%}
+tr:first-child{display:none}tr{border:1px solid var(--card-b);border-radius:12px;padding:6px 12px;margin:10px 0}
+td{border:none;padding:6px 0}td:before{content:attr(data-label);display:block;font-size:.72rem;letter-spacing:.05em;
+text-transform:uppercase;color:var(--muted);margin-bottom:2px}}
+</style><script>
+(function(){var r=document.documentElement,k='ll-theme';try{var s=localStorage.getItem(k);if(s)r.dataset.theme=s}catch(e){}
+window.llTheme=function(){var d=r.dataset.theme==='dark'||(!r.dataset.theme&&!matchMedia('(prefers-color-scheme: light)').matches);
+r.dataset.theme=d?'light':'dark';try{localStorage.setItem(k,r.dataset.theme)}catch(e){}};})();
+</script></head><body><header class="top"><div class="wrap bar">
+<a class="brand" href="index.nl.html"><img src="assets/icon.png" alt="">Lumen Loop</a>
+<nav class="main" aria-label="Hoofdmenu"><a href="index.nl.html" class="">Home</a><a href="privacy.nl.html" class="on">Privacy</a><a href="terms.nl.html" class="">Gebruiksvoorwaarden</a><a href="disclaimer.nl.html" class="">Disclaimer</a><a href="delete-data.nl.html" class="">Gegevens wissen</a><a href="support.nl.html" class="">Support</a></nav>
+<div class="tools"><select class="lang" aria-label="Taal" onchange="location.href=this.value"><option value="privacy.html">English</option><option value="privacy.tr.html">Türkçe</option><option value="privacy.de.html">Deutsch</option><option value="privacy.es.html">Español</option><option value="privacy.fr.html">Français</option><option value="privacy.nl.html" selected>Nederlands</option></select>
+<button class="theme" type="button" onclick="llTheme()" aria-label="Licht/donker thema">◐</button></div>
+</div></header><main><div class="wrap"><div class="hero"><h1><span class="grad">Privacyverklaring</span></h1>
+<p class="lead">Wij verwerken zo weinig mogelijk gegevens. Hier staat precies wat, waarom, door wie en hoelang wordt verwerkt, en welke rechten u hebt.</p><div class="meta"><span class="chip">Laatst bijgewerkt: 2026-09-29</span>
+<span class="chip">Van kracht: 2026-09-29</span><span class="chip">RuiCodex · com.ruicodex.lumenloop</span></div></div>
+<div class="layout"><aside class="toc"><h2>Inhoud</h2><ol><li><a href="#controller">Wie wij zijn</a></li><li><a href="#scope">Toepassingsgebied en begrippen</a></li><li><a href="#data">Welke gegevens wij verwerken</a></li><li><a href="#purposes">Doeleinden en rechtsgronden</a></li><li><a href="#recipients">Ontvangers</a></li><li><a href="#transfers">Internationale doorgiften</a></li><li><a href="#retention">Bewaartermijnen</a></li><li><a href="#choices">Uw keuzes</a></li><li><a href="#rights">Uw rechten</a></li><li><a href="#children">Kinderen</a></li><li><a href="#security">Beveiliging</a></li><li><a href="#automated">Geautomatiseerde besluiten</a></li><li><a href="#changes">Wijzigingen</a></li><li><a href="#contact">Contact</a></li></ol></aside>
+<article><section class="glance" id="glance"><h2>In het kort</h2><ul><li>Om te spelen zijn geen account, naam, e-mailadres of locatie nodig.</li><li>Uw voortgang, lumens en instellingen worden <strong>alleen op uw toestel</strong> bewaard.</li><li>Advertenties worden geleverd door <strong>Google AdMob</strong>, dat de advertentie-ID van uw toestel gebruikt. In de EER, het VK en Zwitserland wordt eerst uw toestemming gevraagd en kunt u uw keuze altijd wijzigen.</li><li>Anonieme spelstatistieken gaan naar <strong>onze eigen analyseserver</strong> (in de Verenigde Staten) om de puzzels te verbeteren. Ze zijn gekoppeld aan een willekeurige identificatiecode, niet aan u, en worden nooit verkocht.</li><li>Betalingen worden verwerkt door <strong>Google Play</strong>; wij zien uw betaalgegevens nooit.</li><li>Wij verkopen geen persoonsgegevens en gebruiken ze alleen zoals in deze verklaring beschreven.</li><li>U kunt uw gegevens altijd wissen — zie <a href="delete-data.nl.html">Gegevens wissen</a> — of schrijf naar <a href="mailto:info@ruicodex.com">info@ruicodex.com</a>.</li></ul></section><section id="controller"><h2><span class="n">01</span>Wie wij zijn</h2>
+<p>Deze Privacyverklaring legt uit hoe <strong>RuiCodex</strong> („RuiCodex”, „wij”), een in België (Europese Unie) gevestigde onderneming, persoonsgegevens verwerkt wanneer u het mobiele spel <strong>Lumen Loop</strong> (pakket <code>com.ruicodex.lumenloop</code>, het „Spel”) en deze website (de „Site”) gebruikt.</p>
+<p>RuiCodex is verwerkingsverantwoordelijke in de zin van artikel 4, 7) van de Algemene Verordening Gegevensbescherming 2016/679 („AVG”) voor de hier beschreven verwerking, behalve wanneer een derde (zoals Google) zelfstandig verwerkingsverantwoordelijke is voor zijn eigen verwerking, zoals hieronder toegelicht. Omdat RuiCodex in de EU is gevestigd, is de AVG van toepassing op alle hier beschreven verwerkingen, waar u ook woont. Onze leidende toezichthoudende autoriteit is de Belgische Gegevensbeschermingsautoriteit.</p>
+<p>Contact voor alle privacyvragen: <a href="mailto:info@ruicodex.com">info@ruicodex.com</a>. Vermeld „Privacy – Lumen Loop” in het onderwerp.</p></section><section id="scope"><h2><span class="n">02</span>Toepassingsgebied en begrippen</h2>
+<p>Deze verklaring geldt voor het Spel op alle toestellen en voor de Site. Ze geldt niet voor websites, diensten of advertenties van derden die u via het Spel bereikt; daarvoor gelden hun eigen regels.</p>
+<p>„Persoonsgegevens” betekent alle informatie over een geïdentificeerde of identificeerbare natuurlijke persoon, zoals gedefinieerd in de AVG, de Belgische wet van 30 juli 2018 betreffende de bescherming van natuurlijke personen met betrekking tot de verwerking van persoonsgegevens, de UK GDPR, de Turkse wet nr. 6698 („KVKK”) en vergelijkbare wetgeving.</p></section><section id="data"><h2><span class="n">03</span>Welke gegevens wij verwerken</h2>
+<h3>1. Gegevens die alleen op uw toestel staan</h3>
+<p>Het Spel bewaart uw voortgang, sterren, lumens, spelersniveau, missies, beloningskalender, gekozen straalthema, instellingen, de lijst van uw items, de categorieën van verstuurde feedback en enkele tellers voor de timing van advertenties en beoordelingsverzoeken in een lokale databank en in de privéopslag van de app. <strong>Deze gegevens worden niet naar ons verzonden.</strong> Ze blijven op uw toestel tot u ze in het Spel wist of het Spel verwijdert.</p>
+<h3>2. Advertentiegegevens (Google AdMob)</h3>
+<p>Het Spel wordt gefinancierd met advertenties van Google AdMob en gebruikt Google's User Messaging Platform („UMP”) om waar nodig toestemming te vragen. Bij het opvragen of tonen van een advertentie kan Google verwerken: de advertentie-ID van uw toestel, uw IP-adres en een daarvan afgeleide benaderende locatie, toestel- en besturingssysteeminformatie (model, versie, taal, schermgrootte), app-informatie, de getoonde advertenties en uw interacties ermee (vertoningen, klikken, of een beloningsvideo volledig werd bekeken) en uw toestemmingskeuzes. Google gebruikt deze gegevens om advertenties te leveren, de frequentie te beperken, te meten, fraude te voorkomen en — met uw toestemming of waar de wet het toelaat — te personaliseren.</p>
+<p>Google is voor deze verwerking zelfstandig verwerkingsverantwoordelijke. Wij ontvangen alleen geaggregeerde rapporten die u niet identificeren. Zie <a href="https://policies.google.com/technologies/partner-sites">Hoe Google informatie gebruikt</a> en de <a href="https://support.google.com/admob/answer/6128543">AdMob-gegevensverklaring</a>.</p>
+<h3>3. Toestemmingsgegevens</h3>
+<p>In de EER, het VK en Zwitserland verschijnt vóór de eerste advertentie een toestemmingsformulier — nooit op het startscherm. Uw keuzes worden op uw toestel bewaard (als IAB TCF-toestemmingsreeks) en met advertentieverzoeken aan Google doorgegeven.</p>
+<h3>4. Spelstatistieken (onze eigen server)</h3>
+<p>Om te begrijpen welke puzzels te moeilijk of te makkelijk zijn, waar spelers vastlopen en of functies werken, stuurt het Spel gebruiksgebeurtenissen naar een analysedienst (PostHog) die RuiCodex op een eigen server in de Verenigde Staten beheert (zie „Internationale doorgiften”). Bijvoorbeeld: app geopend of naar de achtergrond, introductie voltooid, level gestart of opgelost (met code, sterren, zetten, par, gebruikte hints, duur en moeilijkheidsgraad), gebruikte hints en beloningsvideo's, opgehaalde dag-, missie- en weekbeloningen, bereikt spelersniveau, winkelbezoek en het resultaat van een aankooppoging (product en resultaat, nooit betaalgegevens), een aangevraagd beoordelingsvenster (niet of en hoe u beoordeelde) en de categorie van uw feedback. Elke gebeurtenis bevat technische gegevens: een willekeurige identificatiecode die op uw toestel wordt aangemaakt, app-versie, toestelmodel, versie van het besturingssysteem, taal en schermgrootte.</p>
+<p>Deze gebeurtenissen worden <strong>niet</strong> gekoppeld aan uw naam, e-mailadres of advertentie-ID, en sessies worden <strong>niet</strong> opgenomen. Zoals bij elke internetverbinding bereikt uw IP-adres de server; het wordt gebruikt voor de overdracht, ter bescherming tegen misbruik en eventueel om een benaderend land af te leiden voor geaggregeerde statistieken, niet om u te identificeren.</p>
+<h3>5. Aankopen (Google Play)</h3>
+<p>In-app-aankopen worden volledig door Google Play verwerkt. Wij ontvangen nooit kaart- of betaalgegevens. Google Play geeft het Spel een bestelnummer, aankooptoken, het product en de status, die het Spel op uw toestel gebruikt om het item te leveren, dubbele creditering te voorkomen en eenmalige aankopen te herstellen. Deze gegevens gaan niet naar onze servers; de anonieme statistieken registreren alleen welk product werd geprobeerd en het resultaat.</p>
+<h3>6. Feedback in het spel</h3>
+<p>Het formulier „Community-feedback” registreert alleen de gekozen categorie en uw optionele stem. De berichttekst wordt <strong>niet</strong> door het Spel verzonden: uw eigen e-mailapp opent en als u het bericht verstuurt, ontvangen wij uw e-mailadres en bericht. Feedback staat volledig los van winkelbeoordelingen: wij vragen nooit om een bepaalde score en belonen nooit beoordelingen.</p>
+<h3>7. Supportvragen</h3>
+<p>Als u ons mailt, verwerken wij uw e-mailadres, de inhoud en bijlagen om u te antwoorden.</p>
+<h3>8. Meldingen</h3>
+<p>Herinneringen worden, indien ingeschakeld, lokaal op uw toestel gepland. Er wordt geen pushserver gebruikt.</p>
+<h3>9. Deze website</h3>
+<p>De Site wordt gehost door GitHub Pages (GitHub, Inc.), dat technische gegevens zoals uw IP-adres kan loggen voor beveiliging (<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub-privacyverklaring</a>). De Site zelf gebruikt <strong>geen cookies, geen analyse en geen tracking</strong>; alleen de lokale opslag van uw browser onthoudt uw keuze voor licht/donker.</p>
+<h3>10. Gegevens die wij niet verzamelen</h3>
+<p>Wij verzamelen geen naam, e-mailadres (tenzij u ons schrijft), telefoonnummer, contacten, foto's, precieze locatie, gezondheids- of financiële gegevens; het Spel heeft geen chat, profielen of ranglijsten.</p></section><section id="purposes"><h2><span class="n">04</span>Doeleinden en rechtsgronden</h2>
+<div class="tablewrap"><table><tr><th>Doel</th><th>Gegevens</th><th>Rechtsgrond (AVG)</th></tr>
+<tr><td data-label="Doel">Het Spel aanbieden en uw voortgang bewaren</td><td data-label="Gegevens">Gegevens op het toestel</td><td data-label="Rechtsgrond (AVG)">Uitvoering van de overeenkomst (art. 6, lid 1, b)</td></tr>
+<tr><td data-label="Doel">Niet-gepersonaliseerde advertenties, frequentiebeperking, fraudepreventie</td><td data-label="Gegevens">Advertentiegegevens</td><td data-label="Rechtsgrond (AVG)">Gerechtvaardigd belang bij de financiering van een gratis spel (art. 6, lid 1, f); toestemming waar de wet dit voor toegang tot het toestel vereist (art. 10/2 wet van 30 juli 2018 / art. 129 wet elektronische communicatie)</td></tr>
+<tr><td data-label="Doel">Gepersonaliseerde advertenties</td><td data-label="Gegevens">Advertentiegegevens</td><td data-label="Rechtsgrond (AVG)">Toestemming (art. 6, lid 1, a), op elk moment intrekbaar</td></tr>
+<tr><td data-label="Doel">Aankopen leveren en herstellen</td><td data-label="Gegevens">Aankoopgegevens op het toestel</td><td data-label="Rechtsgrond (AVG)">Uitvoering van de overeenkomst (art. 6, lid 1, b)</td></tr>
+<tr><td data-label="Doel">Puzzels verbeteren, moeilijkheid afstemmen, fouten vinden</td><td data-label="Gegevens">Spelstatistieken</td><td data-label="Rechtsgrond (AVG)">Gerechtvaardigd belang (art. 6, lid 1, f)</td></tr>
+<tr><td data-label="Doel">Feedback en supportvragen beantwoorden</td><td data-label="Gegevens">E-mail en inhoud</td><td data-label="Rechtsgrond (AVG)">Art. 6, lid 1, b en f</td></tr>
+<tr><td data-label="Doel">Wettelijke verplichtingen, rechtsvorderingen</td><td data-label="Gegevens">Relevante gegevens</td><td data-label="Rechtsgrond (AVG)">Art. 6, lid 1, c en f</td></tr>
+</table></div>
+<p>Voor gebruikers in Turkije gelden de overeenstemmende rechtsgronden van art. 5 KVKK. Waar wij ons op een gerechtvaardigd belang baseren, hebben wij dat afgewogen tegen uw rechten; de gegevens zijn beperkt, niet aan uw identiteit gekoppeld, en u kunt altijd bezwaar maken.</p></section><section id="recipients"><h2><span class="n">05</span>Ontvangers</h2>
+<ul>
+<li><strong>Google</strong> (Google Ireland Limited voor gebruikers in de EER, het VK en Zwitserland; anders Google LLC) — AdMob, UMP, Google Play-facturatie en -beoordelingen, als zelfstandig verwerkingsverantwoordelijke.</li>
+<li><strong>Onze hostingprovider voor statistieken</strong> — aanbieder van de server in de Verenigde Staten waarop RuiCodex zijn eigen analysedienst draait, als verwerker (art. 28 AVG).</li>
+<li><strong>GitHub, Inc.</strong> — hosting van de Site.</li>
+<li><strong>Onze e-mailprovider</strong> — als u ons schrijft, als verwerker.</li>
+<li><strong>Overheden en rechtbanken</strong> — alleen bij wettelijke verplichting of indien nodig voor de vaststelling, uitoefening of verdediging van rechtsvorderingen.</li>
+<li><strong>Een rechtsopvolger</strong> — bij overdracht van het Spel of de activiteit, gebonden door deze verklaring.</li>
+</ul>
+<p><strong>Wij verkopen geen persoonsgegevens.</strong></p></section><section id="transfers"><h2><span class="n">06</span>Internationale doorgiften</h2>
+<p>RuiCodex is gevestigd in de Europese Unie. Sommige ontvangers verwerken gegevens buiten de Europese Economische Ruimte (EER):</p>
+<ul>
+<li><strong>Spelstatistieken</strong> worden bewaard op een server in de <strong>Verenigde Staten</strong>. Deze doorgiften steunen op de modelcontractbepalingen van de Europese Commissie (art. 46, lid 2, c, AVG) met de hostingprovider, aangevuld met technische en organisatorische maatregelen: versleuteling tijdens de overdracht, beperkte toegang en dataminimalisatie (geen namen, e-mailadressen of advertentie-ID's).</li>
+<li><strong>Google</strong> en <strong>GitHub</strong> kunnen gegevens verwerken in de VS en andere landen, op basis van het EU-VS-gegevensprivacykader waar zij gecertificeerd zijn en van modelcontractbepalingen.</li>
+<li>Gebruikt u het Spel van buiten de EER, dan worden uw gegevens doorgegeven naar de EER en de VS zoals beschreven. Voor gebruikers in Turkije gebeuren doorgiften overeenkomstig artikel 9 KVKK.</li>
+</ul>
+<p>Op verzoek informeren wij u over deze waarborgen en bezorgen wij een kopie van de bepalingen.</p></section><section id="retention"><h2><span class="n">07</span>Bewaartermijnen</h2>
+<div class="tablewrap"><table><tr><th>Gegevens</th><th>Bewaartermijn</th></tr>
+<tr><td data-label="Gegevens">Gegevens op uw toestel</td><td data-label="Bewaartermijn">Tot u „Alle gegevens resetten” gebruikt, de app-gegevens wist of het Spel verwijdert</td></tr>
+<tr><td data-label="Gegevens">Spelstatistieken</td><td data-label="Bewaartermijn">Zolang nodig om het Spel te verbeteren en maximaal 24 maanden; daarna gewist of zo geaggregeerd dat er geen verband meer is met een identificatiecode</td></tr>
+<tr><td data-label="Gegevens">Support- en feedbackmails</td><td data-label="Bewaartermijn">Tot de afhandeling en daarna maximaal 3 jaar voor opvolging en rechtsvorderingen</td></tr>
+<tr><td data-label="Gegevens">Door Google verwerkte advertentiegegevens</td><td data-label="Bewaartermijn">Volgens het beleid van Google</td></tr>
+<tr><td data-label="Gegevens">Logbestanden van de Site</td><td data-label="Bewaartermijn">Volgens het beleid van GitHub</td></tr>
+</table></div></section><section id="choices"><h2><span class="n">08</span>Uw keuzes</h2>
+<ul>
+<li><strong>Advertentietoestemming:</strong> waar vereist, wijzigen of intrekken in het Spel via <em>Profiel › Advertentieprivacy</em> (in het Engels: <em>Profile › Ad privacy choices</em>).</li>
+<li><strong>Advertentie-ID:</strong> resetten of verwijderen in Android via <em>Instellingen › Google › Advertenties</em>.</li>
+<li><strong>Minder advertenties:</strong> „Advertenties verwijderen” of de Luminary Pass schakelen banners en tussenadvertenties uit. Beloningsvideo's blijven vrijwillig.</li>
+<li><strong>Spelgegevens:</strong> wissen via de instellingen van het Spel (<em>Data › Reset all data</em>) of door het Spel te verwijderen.</li>
+<li><strong>Statistieken:</strong> u kunt bezwaar maken door ons te mailen; zie ook „Gegevens wissen”.</li>
+<li><strong>Meldingen:</strong> in- of uitschakelen in de instellingen.</li>
+</ul></section><section id="rights"><h2><span class="n">09</span>Uw rechten</h2>
+<p>Onder de AVG hebt u recht op inzage (art. 15), rectificatie (art. 16), wissing (art. 17), beperking (art. 18), overdraagbaarheid (art. 20), <strong>bezwaar</strong> — in het bijzonder tegen verwerking op basis van een gerechtvaardigd belang (art. 21) —, het recht uw toestemming op elk moment in te trekken (art. 7, lid 3) en het recht een klacht in te dienen bij een toezichthoudende autoriteit (art. 77): in België de Gegevensbeschermingsautoriteit (Drukpersstraat 35, 1000 Brussel, <a href="https://www.gegevensbeschermingsautoriteit.be">gegevensbeschermingsautoriteit.be</a>), of de autoriteit van uw woonplaats, werkplek of de plaats van de vermeende inbreuk (in Nederland de Autoriteit Persoonsgegevens).</p>
+<p>Gebruikers in Turkije hebben de rechten van art. 11 KVKK; in het VK en Zwitserland gelden de gelijkwaardige rechten; in Californië en andere Amerikaanse staten de rechten naar lokaal recht (waaronder bezwaar tegen „verkoop” of „delen” voor gerichte advertenties — wij verkopen geen gegevens; door Google gepersonaliseerde advertenties kunt u uitschakelen via uw advertentie-ID en de advertentieprivacy in het Spel); in Brazilië de rechten van de LGPD.</p>
+<p><strong>Uw rechten uitoefenen:</strong> schrijf naar <a href="mailto:info@ruicodex.com">info@ruicodex.com</a>. Wij antwoorden binnen een maand (verlengbaar met twee maanden bij complexe verzoeken, waarover wij u informeren) en kosteloos. Omdat wij niet naar uw identiteit vragen, kunnen wij alleen handelen op gegevens die wij betrouwbaar aan u kunnen koppelen (bijvoorbeeld uw e-mails). Spelgegevens staan op uw toestel en onder uw controle.</p></section><section id="children"><h2><span class="n">10</span>Kinderen</h2><p>Het Spel is bedoeld voor spelers vanaf <strong>13 jaar</strong> en niet voor kinderen; advertenties zijn beperkt tot de inhoudsclassificatie „G”. Bent u jonger dan de leeftijd waarop u in uw land zelf toestemming kunt geven (13 jaar in België, 16 jaar in Nederland, art. 8 AVG), dan mag u het Spel alleen gebruiken met toestemming van uw ouders of voogd, ook voor aankopen. Wij verzamelen niet bewust gegevens van kinderen jonger dan 13 jaar; als dat toch gebeurt, schrijf naar <a href="mailto:info@ruicodex.com">info@ruicodex.com</a> en wij wissen ze.</p></section><section id="security"><h2><span class="n">11</span>Beveiliging</h2><p>Wij beschermen gegevens met passende technische en organisatorische maatregelen, zoals versleuteling tijdens de overdracht (HTTPS/TLS) voor al het netwerkverkeer van het Spel, toegangsbeperkingen en dataminimalisatie. Absolute veiligheid bestaat niet; wij melden inbreuken in verband met persoonsgegevens aan u en aan de Gegevensbeschermingsautoriteit wanneer de wet dat vereist (art. 33–34 AVG).</p></section><section id="automated"><h2><span class="n">12</span>Geautomatiseerde besluiten</h2><p>Wij nemen geen besluiten die uitsluitend op geautomatiseerde verwerking berusten en rechtsgevolgen of vergelijkbare aanzienlijke gevolgen hebben (art. 22 AVG). De selectie en personalisatie van advertenties gebeurt door Google.</p></section><section id="changes"><h2><span class="n">13</span>Wijzigingen</h2><p>Wij kunnen deze verklaring bijwerken. De actuele versie en de datum staan altijd op deze pagina. Belangrijke wijzigingen melden wij vooraf in het Spel of hier, en waar nodig vragen wij opnieuw uw toestemming.</p></section><section id="contact"><h2><span class="n">14</span>Contact</h2><p>RuiCodex · <a href="mailto:info@ruicodex.com">info@ruicodex.com</a> · Onderwerp: „Privacy – Lumen Loop”. Om gegevens te wissen: zie <a href="delete-data.nl.html">Gegevens wissen</a>.</p></section></article></div></div></main><footer><div class="wrap"><div class="cols"><nav><a href="index.nl.html">Home</a><a href="privacy.nl.html">Privacy</a><a href="terms.nl.html">Gebruiksvoorwaarden</a><a href="disclaimer.nl.html">Disclaimer</a><a href="delete-data.nl.html">Gegevens wissen</a><a href="support.nl.html">Support</a></nav>
+<div><a href="mailto:info@ruicodex.com">info@ruicodex.com</a></div></div>
+<p class="small">© 2026 RuiCodex. Alle rechten voorbehouden. Google Play en het Google Play-logo zijn handelsmerken van Google LLC.</p>
+<p class="small">Vertalingen worden voor uw gemak aangeboden. Bij verschillen geldt de Engelse versie, tenzij dwingend recht anders bepaalt. Het spel zelf is beschikbaar in het Engels, Turks, Duits, Spaans en Frans.</p></div></footer></body></html>
